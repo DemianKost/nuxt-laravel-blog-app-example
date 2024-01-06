@@ -1,0 +1,44 @@
+# Backend service
+/backend/.phpunit.cache
+/backend/node_modules
+/backend/public/build
+/backend/public/hot
+/backend/public/storage
+/backend/storage/*.key
+/vendor
+/backend/.env
+/backend/.env.backup
+/backend/.env.production
+/backend/.phpunit.result.cache
+/backend/Homestead.json
+/backend/Homestead.yaml
+/backend/auth.json
+/backend/npm-debug.log
+/backendyarn-error.log
+/backend/.fleet
+/backend/.idea
+/backend/.vscode
+
+# Nuxt dev/build outputs
+/frontend/.output
+/frontend/.data
+/frontend/.nuxt
+/frontend/.nitro
+/frontend/.cache
+/frontend/dist
+
+# Node dependencies
+/frontend/node_modules
+
+# Logs
+/frontend/logs
+/frontend/*.log
+
+# Misc
+.DS_Store
+/frontend/.DS_Store
+
+# Local env files
+/frontend/.env
+/frontend/.env.*
+/frontend/!.env.example
