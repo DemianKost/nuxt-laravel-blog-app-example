@@ -5,5 +5,10 @@ export const PostService = {
         const { data } = useFetch(`${BASE_URL}/posts`);
 
         return data;
+    },
+    find: (id) => {
+        const { data } = useFetch(`${BASE_URL}/posts/${id}`);
+
+        return data;
     }
 };

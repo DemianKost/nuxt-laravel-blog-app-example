@@ -17,10 +17,10 @@
         </div> -->
         <div class="group relative">
             <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                <a href="#">
+                <NuxtLink :to="`/post/${post.id}`">
                     <span class="absolute inset-0"></span>
                     {{ post.attributes.title }}
-                </a>
+                </NuxtLink>
             </h3>
             <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">{{ post.attributes.summary }}</p>
         </div>
