@@ -7,7 +7,17 @@ export const postStore = defineStore('posts', {
     }),
     getters: {
         index(state) {
-            PostService.all();
+            // if ( ! state.all.entries().all.length ) {
+            //     state.all = postStore().get()
+            // }
+            state.all = postStore().get()
+
+            return state.all;
+        }
+    },
+    actions: {
+        get() {
+            return PostService.all();
         }
     }
 });

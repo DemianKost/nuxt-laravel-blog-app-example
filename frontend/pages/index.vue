@@ -7,7 +7,6 @@
 
 <template>
     <div>
-        homepage
-        <NuxtWelcome />
+        <p class="text-2xl">homepage</p>
     </div>
 </template>

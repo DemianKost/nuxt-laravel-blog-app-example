@@ -4,6 +4,6 @@ export const PostService = {
     all: () => {
         const { data } = useFetch(`${BASE_URL}/posts`);
 
-        console.log( data );
+        return data;
     }
 };
