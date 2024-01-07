@@ -3,5 +3,6 @@
 <template>
     <div>
         homepage
+        <NuxtWelcome />
     </div>
 </template>
