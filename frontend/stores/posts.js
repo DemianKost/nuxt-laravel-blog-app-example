@@ -13,11 +13,11 @@ export const postStore = defineStore('posts', {
             state.all = postStore().get()
 
             return state.all;
-        }
+        },
     },
     actions: {
         get() {
             return PostService.all();
-        }
+        },
     }
 });

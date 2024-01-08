@@ -8,7 +8,7 @@ const post = PostService.find(route.params.id)
 <template>
     <div>
 
-        <div v-if="post" class="bg-white py-24 sm:py-32">
+        <div class="bg-white py-24 sm:py-32">
             <div class="mx-auto max-w-7xl px-6 lg:px-8">
                 <div class="mx-auto max-w-2xl mb-10 lg:mx-0">
                     <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{{ post.attributes.title }}</h2>
